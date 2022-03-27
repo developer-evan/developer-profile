@@ -484,14 +484,14 @@ section {
   color: #64ffda;
 }
 .about .content .profile-img {
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
 }
 .about .content .profile-img img {
-  width: 400px;
+  width: 100%;
   height: 100%;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
